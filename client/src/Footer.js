@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="text-center mb-3  ">
     <hr />
       <h4 className="text-white">Hello React</h4>
-      <a href="https://github.com/SebastianHurtado12/hello-react-hurtado">
+      <a href="https://github.com/SebastianHurtado12/hello-react-hurtado1">
         <i className="fa fa-github fa-4x text-dark"></i>
       </a>
     </div>
