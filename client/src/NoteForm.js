@@ -16,10 +16,13 @@ const NoteForm = ({ addNote }) => {
   };
 
   return (
+     
     <form onSubmit={handleSubmit}>
-      <div className="form-group">
-        <label htmlFor="title">Título</label>
+
+      <div className="form-group  font-weight-bold">
+        <label htmlFor="title">TITULO</label>
         <input
+
           id="title"
           className="form-control"
           type='text'
@@ -27,8 +30,8 @@ const NoteForm = ({ addNote }) => {
           onChange={e => setTitle(e.target.value)}
         />
       </div>
-      <div className="form-group">
-        <label htmlFor="text">Texto</label>
+      <div className="form-group font-weight-bold">
+        <label htmlFor="text" >TEXTO</label>
         <textarea
           id="text"
           className="form-control"
@@ -38,12 +41,15 @@ const NoteForm = ({ addNote }) => {
         >
         </textarea>
       </div>
-      <input
-        className="btn btn-primary"
-        type="submit"
-        value="Guardar"
-      />
+      <div className="text-center mb-3">
+        <input
+          className="btn  btn btn-primary  btn-lg font-weight-bold"
+          type="submit"
+          value= "GUARDAR"
+          />
+      </div>
     </form>
+
   );
 };
 

@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <div>
-      <Header title='Notas'/>
+      <Header title='MisNotas'/>
       <div className="container mt-3">
       <NoteForm
           addNote={addNote}

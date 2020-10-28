@@ -57,7 +57,7 @@ const Note = ({ id, initialTitle, initialText, removeNote, updateNote }) => {
         </button>
 
         <button className="btn" hidden={!editable} onClick={handleSave}>
-          <i className="text-secondary fa fa-save fa-lg"></i>
+          <i className="text-dark fa fa-save fa-lg"></i>
         </button>
 
         <button className="btn" onClick={() => removeNote(id)}>
